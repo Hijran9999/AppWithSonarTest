@@ -1,0 +1,7 @@
+organization=hijran9999
+projectKey=appwithsonartest
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.82112
+dashboardUrl=https://sonarcloud.io/dashboard?id=appwithsonartest
+ceTaskId=AZymN3dFFT95F1vSOhYX
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZymN3dFFT95F1vSOhYX
