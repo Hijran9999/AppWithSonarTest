@@ -3,5 +3,5 @@ projectKey=appwithsonartest
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.82112
 dashboardUrl=https://sonarcloud.io/dashboard?id=appwithsonartest
-ceTaskId=AZymQU5-Q-S2adFc8mCZ
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZymQU5-Q-S2adFc8mCZ
+ceTaskId=AZymZmdf61m2OIsFp_rj
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZymZmdf61m2OIsFp_rj

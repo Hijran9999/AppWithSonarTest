@@ -16,10 +16,11 @@ toString()-java.lang.Object#toString()Ljava/lang/String;"
 wait()java.lang.Object#wait()V$
 wait(J)java.lang.Object#wait(J)V&
 wait(JI)java.lang.Object#wait(JI)V&
-wait0(J)java.lang.Object#wait0(J)V“
+wait0(J)java.lang.Object#wait0(J)VÈ
 com.example.Appjava.lang.Object%
 <init>()com.example.App#<init>()VG
-main([Ljava/lang/String;)*com.example.App#main([Ljava/lang/String;)V¾^
+main([Ljava/lang/String;)*com.example.App#main([Ljava/lang/String;)V3
+runDivision(II) com.example.App#runDivision(II)I¾^
 java.util.logging.Loggerjava.lang.ObjectR
 <init>(Ljava/lang/String;)4java.util.logging.Logger#<init>(Ljava/lang/String;)Vv
 ,<init>(Ljava/lang/String;Ljava/lang/String;)Fjava.util.logging.Logger#<init>(Ljava/lang/String;Ljava/lang/String;)VØ

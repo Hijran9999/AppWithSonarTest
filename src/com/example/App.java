@@ -1,26 +1,25 @@
-package com.example; // Best practice: always use a package
+package com.example;
 
 import java.util.logging.Logger;
 import java.util.logging.Level;
 
 public class App {
-    // SonarQube prefers Loggers over System.out.println
     private static final Logger logger = Logger.getLogger(App.class.getName());
 
     public static void main(String[] args) {
-        logger.log(Level.INFO, "Hello SonarQube Demo!");
+        App app = new App();
+        app.runDivision(10, 2);
+        app.runDivision(10, 0);
+    }
 
-        // FIX 1: Removed 'unusedVariable' to eliminate the "Unused Local Variable" smell.
-
-        // FIX 2: Added proper logic and logging to the catch block.
+    public int runDivision(int a, int b) {
         try {
-            int dividend = 10;
-            int divisor = 0;
-            int result = dividend / divisor;
+            int result = a / b;
             logger.log(Level.INFO, "Result: {0}", result);
-        } catch (ArithmeticException e) { 
-            // SonarQube Fix: Catch specific exceptions and log them or take action.
-            logger.log(Level.SEVERE, "Cannot divide by zero.", e);
+            return result;
+        } catch (ArithmeticException e) {
+            logger.log(Level.SEVERE, "Error: Cannot divide by zero", e);
+            return -1; // Specific return for error state
         }
     }
 }
